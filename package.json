@@ -2,7 +2,7 @@
   "name": "el3atare-frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "El 3atare – Pharmacopée Traditionnelle Algérienne – Fondé par KHEDIM BENYAKHLEF dit BENY-JOE",
+  "description": "El 3atare – Pharmacopée Traditionnelle Algérienne",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
