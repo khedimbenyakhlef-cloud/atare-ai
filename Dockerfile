@@ -2,6 +2,7 @@ FROM node:20-alpine AS build
 WORKDIR /app
 COPY package.json .
 RUN npm install --legacy-peer-deps
+RUN npm install ajv@^8 ajv-keywords@^5 --legacy-peer-deps
 COPY . .
 RUN npm run build
 
